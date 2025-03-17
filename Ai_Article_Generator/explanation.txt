@@ -1,0 +1,23 @@
+This is an AI Article Generator built with Streamlit that compares responses from multiple Google Gemini AI models. It allows users to enter an article topic and generate responses from different Gemini models, displaying them in a ranked order based on user preferences.
+
+Key Features
+Secure Google API Key handling using .env file
+Compares responses from Gemini 1.5 Pro, Gemini 2.0-pro-exp, and Gemini 1.5-flash-latest
+Ranks models based on user selection, adjusting model preferences dynamically
+
+Interactive UI for selecting the best response
+
+Installation & Setup
+1. Clone the repository or download the files
+
+git clone https://github.com/your-repo/ai-article-generator.git
+cd ai-article-generator
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Set up environment variables
+Create a .env file in the project directory and add your Google API Key:
+GOOGLE_API_KEY=your_google_api_key_here
+
+4. Run the application
+streamlit run app.py
