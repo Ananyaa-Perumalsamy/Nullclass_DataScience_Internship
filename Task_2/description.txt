@@ -1,0 +1,19 @@
+This project is a Q&A Chatbot powered by Google Gemini AI with vision capabilities. It allows users to input text prompts and upload images to receive AI-generated responses based on both text and visual content.
+
+Key Features
+Uses Google Gemini 1.5 Flash for text and image understanding
+Accepts user input prompts and image uploads
+Displays the uploaded image and provides AI-generated descriptions or responses
+Simple Streamlit UI for interactive chatbot experience
+
+  Installation & Setup
+1. Clone the repository or download the files: 
+  git clone https://github.com/Ananyaa-Perumalsamy/Nullclass_DataScience_Internship/new/main/Task_2
+  cd gemini-vision-bot
+2.Install dependencies:
+  pip install -r requirements.txt
+3.Set up environment variables
+Create a .env file in the project directory and add your Google API Key:
+  GOOGLE_API_KEY=your_google_api_key_here
+4. Run the application:
+streamlit run app.py
